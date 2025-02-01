@@ -7,7 +7,7 @@ import time
 context = []
 
 def main():
-    application = ApplicationBuilder().token("7911747085:AAGsanmvnE6qdTeteF9XnQ4A8SDq-X2URY0").build()
+    application = ApplicationBuilder().token("TOKEN").build()
 
     application.add_handler(CommandHandler("start", start))
 
